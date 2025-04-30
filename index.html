@@ -1,28 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TaifPay Downloads</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 30px 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 24px;
+            font-size: 1.8rem;
+        }
+
+        .button {
+            display: block;
+            width: 100%;
+            margin: 12px 0;
+            padding: 14px;
+            font-size: 16px;
+            font-weight: 600;
+            background-color: #0078d7;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #005fa3;
+        }
+
+        @media (max-width: 500px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .container {
+                padding: 20px 15px;
+            }
+        }
+    </style>
 </head>
 
-<body style="text-align:center; padding:40px; font-family:sans-serif;">
-    <h1>Download TaifPay App</h1>
+<body>
+    <div class="container">
+        <h1>Download TaifPay App</h1>
 
-    <a href="https://github.com/RafiMagsi/app-center/releases/download/v1.0.0/app-release.apk">
-        <button style="padding:12px 24px; font-size:16px;">Download for Android (.apk)</button>
-    </a>
+        <a class="button" href="https://github.com/RafiMagsi/app-center/releases/download/v1.0.0/app-release.apk">
+            Download for Android (.apk)
+        </a>
 
-    <br><br>
-
-    <a href="https://github.com/RafiMagsi/app-center/releases/download/v1.0.0/taifpay.ipa">
-        <button style="padding:12px 24px; font-size:16px;">Download for iOS (.ipa)</button>
-    </a>
-    <br><br>
-    <a  href="itms-services://?action=download-manifest&url=https://rafimagsi.github.io/app-center/downloads/manifest.plist">
-        <button style="padding:12px 24px; font-size:16px;">Install TaifPay App</button>
-    </a>
-
+        <a class="button"
+            href="itms-services://?action=download-manifest&url=https://rafimagsi.github.io/app-center/downloads/manifest.plist">
+            Install for iOS (.ipa)
+        </a>
+    </div>
 </body>
 
 </html>
