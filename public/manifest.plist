@@ -12,19 +12,19 @@
           <key>kind</key>
           <string>software-package</string>
           <key>url</key>
-          <string>https://gitlab.taifco.net/tib_channels_src/app-distribution/ios/app.ipa</string>
+          <string>https://github.com/RafiMagsi/app-center/releases/download/v1.0.0/taifpay.ipa</string>
         </dict>
       </array>
       <key>metadata</key>
       <dict>
         <key>bundle-identifier</key>
-        <string>com.yourcompany.app</string>
+        <string>com.tib.taifpayapp</string>
         <key>bundle-version</key>
         <string>1.0.0</string>
         <key>kind</key>
         <string>software</string>
         <key>title</key>
-        <string>Your App Name</string>
+        <string>Taif Pay</string>
       </dict>
     </dict>
   </array>
