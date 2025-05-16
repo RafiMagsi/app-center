@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #0f4c81, #0078d7);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 14px;
+    color: #666;
+}
+
+.app-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.app-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background: #ffffff;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #0f4c81;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.app-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.versions {
+    padding: 2rem;
+    max-width: 600px;
+    margin: auto;
+}
+
+.versions section {
+    margin-bottom: 2rem;
+}
+
+.versions ul {
+    list-style: none;
+    padding: 0;
+}
+
+.versions li {
+    background: white;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.versions a {
+    text-decoration: none;
+    color: #0f4c81;
+    font-weight: 500;
+}
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #0f4c81, #0078d7);
+    padding: 20px;
+    color: white;
+}
+
+.app-header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.dashboard-button {
+    background-color: #ffffff;
+    color: #0f4c81;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-button:hover {
+    background-color: #f3f4f6;
+}
