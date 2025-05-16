@@ -1,142 +1,25 @@
-<!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TaifPay Downloads</title>
-    <style>
-        :root {
-            --primary-color: #0f4c81;
-            --accent-color: #0078d7;
-            --background-color: #f3f4f6;
-            --text-color: #333;
-        }
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>App Distribution | TaifPay</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
 
-        * {
-            box-sizing: border-box;
-        }
+    <body>
+        <header>
+            <h1>App Distribution Center</h1>
+            <p>Select an app to view available versions.</p>
+        </header>
 
-        body {
-            margin: 0;
-            font-family: "Segoe UI", sans-serif;
-            background-color: var(--background-color);
-            color: var(--text-color);
-        }
+        <main class="app-list">
+            <a href="taifpay.html" class="app-card">TaifPay</a>
+            <a href="tib-online.html" class="app-card">TIB Online</a>
+            <a href="tib-companies.html" class="app-card">TIB Companies</a>
+        </main>
 
-        header {
-            background: linear-gradient(135deg, #0f4c81, #0078d7);
-            color: white;
-            padding: 40px 20px;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2rem;
-        }
-
-        .content {
-            max-width: 480px;
-            margin: 40px auto;
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.06);
-            padding: 30px 20px;
-            text-align: center;
-        }
-
-        .content h2 {
-            margin-top: 0;
-            font-size: 1.6rem;
-        }
-
-        .button {
-            display: block;
-            width: 100%;
-            padding: 14px 16px;
-            margin: 12px 0;
-            font-size: 16px;
-            font-weight: 600;
-            color: white;
-            background-color: var(--accent-color);
-            border: none;
-            border-radius: 8px;
-            text-decoration: none;
-            transition: background-color 0.2s ease;
-        }
-
-        .button:hover {
-            background-color: #005fa3;
-        }
-
-        footer {
-            text-align: center;
-            font-size: 14px;
-            padding: 20px;
-            color: #666;
-        }
-
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 1.5rem;
-            }
-
-            .content {
-                margin: 20px;
-            }
-        }
-    </style>
-</head>
-
-<body>
-    <header>
-        <h1>TaifPay App Distribution</h1>
-    </header>
-
-    <div class="content">
-        <h2>Download the App</h2>
-
-            <h3>TaifPay</h3>
-            <a class="button" href="https://github.com/RafiMagsi/app-center/releases/download/v1.0.0/app-release.apk">
-                Download for Android (.apk)
-            </a>
-
-            <a class="button"
-                href="itms-services://?action=download-manifest&url=https://rafimagsi.github.io/app-center/downloads/taifpay/manifest.plist">
-                Install for iOS (.ipa)
-            </a>
-
-        </br>
-            <h3>TIB Online - Consumer Finance</h3>
-            <a class="button" href="https://github.com/RafiMagsi/app-center/releases/download/v1.0.0/tib_10.4.0.apk">
-                Download for Android (.apk)
-            </a>
-            
-            <a class="button"
-                href="itms-services://?action=download-manifest&url=https://rafimagsi.github.io/app-center/downloads/tib_online-1/manifest.plist">
-                iOS - ConsumerFinance
-            </a>
-            <a class="button"
-                href="itms-services://?action=download-manifest&url=https://rafimagsi.github.io/app-center/downloads/tib_online-2/manifest.plist">
-                iOS - AdvancePay
-            </a>
-        </br>
-
-            <h3>TIB Companies</h3>
-            <a class="button" href="">
-                Download for Android (.apk)
-            </a>
-            
-            <a class="button"
-                href="itms-services://?action=download-manifest&url=https://rafimagsi.github.io/app-center/downloads/tib_companies/manifest.plist">
-                Install for iOS (.ipa)
-            </a>
-    </div>
-
-    <footer>
-        &copy; 2025 UrukIT
-    </footer>
-</body>
+        <footer>&copy; 2025 UrukIT</footer>
+    </body>
 
 </html>
