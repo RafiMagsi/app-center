@@ -115,3 +115,9 @@ li {
 li:hover {
     background-color: #e0e0e0;
 }
+
+.version-date {
+    font-size: 10px;
+    color: #888;
+    margin-top: 4px; 
+}
